@@ -25,6 +25,7 @@ if($salario <=2428.80){
 	$desconto = 27.5;
 	$salarioliquido = $salario - $imposto;
 }
+printf("O salário bruto: %.2f", $salario);
 printf("A porcentagem de desconto é: %.1f%% <br/><br/>", $desconto);
 printf("O valor do salário líquido: R$%.2f <br/><br/>", $salarioliquido);
 printf("O valor do imposto de renda é: R$%.2f", $imposto);
