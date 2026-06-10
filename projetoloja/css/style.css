@@ -1,0 +1,13 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+]
+body{
+	display: flex;
+}
+h1{
+	font-size: 24px;
+	flex-direction: column-reverse;
+}
+

@@ -25,7 +25,7 @@
 	//Executa um comando
 	mysqli_query($con, $sql);
 
-	//Fecha o banco de dados
+	//Fecha o banco de dados.
 	
 	mysqli_close($con);
  ?>
